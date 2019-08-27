@@ -4,6 +4,7 @@
   "author": "Tilo Mitra <tilomitra@gmail.com>",
   "private": true,
   "scripts": {
+    "install": "sh startClever.sh",
     "start": "./node_modules/.bin/nodemon ./bin/www --exec babel-node --presets es2015,stage-2,react",
     "build": "./node_modules/webpack/bin/webpack.js",
     "buildWithWatch": "./node_modules/webpack/bin/webpack.js --watch"
